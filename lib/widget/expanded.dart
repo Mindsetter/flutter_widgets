@@ -7,6 +7,7 @@ class CusExpanded extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Expanded(
             child: Container(
@@ -17,13 +18,13 @@ class CusExpanded extends StatelessWidget {
             child: Container(
               color: Colors.red,
               child: const Center(
-                child: Text('Day 2'),
+                child: Text('Day 3'),
               ),
             ),
           ),
           Expanded(
             child: Container(
-              color: Colors.lightBlue,
+              color: Colors.blue,
             ),
           )
         ],
