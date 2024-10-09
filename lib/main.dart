@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/screen/timer.dart';
 import 'package:flutter_widgets/widget/cus_gesturedetector.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Widget Day',
-      home: CusGesDector(),
+      home: TimerScreen(),
     );
   }
 }
