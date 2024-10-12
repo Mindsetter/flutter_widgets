@@ -21,9 +21,26 @@ class _PageOneState extends State<PageOne> {
       body: Center(
         child: Container(
           color: Colors.white,
-          child: Text(
-            'Text Styling',
-            style: textStyle,
+          child: Column(
+            children: [
+              Text(
+                'Text Styling',
+                style: textStyle,
+              ),
+              RichText(
+                text: const TextSpan(
+                  children: [
+                    TextSpan(
+                      text: 'Hello Man',
+                      style: TextStyle(fontSize: 20),
+                    ),
+                    TextSpan(
+                        text: 'Very tired today',
+                        style: TextStyle(fontStyle: FontStyle.italic))
+                  ],
+                ),
+              ),
+            ],
           ),
         ),
       ),
