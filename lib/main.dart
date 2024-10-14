@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/screen/page_view.dart';
+import 'package:flutter_widgets/screen/simple_slider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Widget Day',
-      home: PageViewCus(),
+      home: SimpleSlider(),
     );
   }
 }
