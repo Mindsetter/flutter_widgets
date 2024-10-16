@@ -33,6 +33,17 @@ class _AnimatedIconScreenState extends State<AnimatedIconScreen>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.red,
+        elevation: 0,
+        title: const Text('App Bar'),
+        centerTitle: true,
+        foregroundColor: Colors.white,
+        leading: IconButton(onPressed: () {}, icon: const Icon(Icons.menu)),
+        actions: const [
+          Icon(Icons.share),
+        ],
+      ),
       body: Center(
         child: GestureDetector(
           onTap: iconTapped,
