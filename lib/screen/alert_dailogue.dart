@@ -14,8 +14,8 @@ class _AlertDialogScreenState extends State<AlertDialogScreen> {
         context: context,
         builder: (context) {
           return CupertinoAlertDialog(
-            title: const Text('Do you want to quite?'),
-            content: const Text('Are you sure you want to quite?'),
+            title: const Text('Do you want to quit?'),
+            content: const Text('Are you sure you want to quit?'),
             actions: [
               MaterialButton(
                 onPressed: () {},
